@@ -1,0 +1,120 @@
+		.quest{
+	 		background-color:lightskyblue;
+	 		width:700px;
+	 		height:700px;
+	 		margin-left:600px;
+	 		border-radius:10px;
+
+	 	}
+	 	.quest-bg{
+	 		background-image: url(bg.jpg);
+	 		width: 1850px;
+	 		height:920px;
+	 	}
+	 	.quest-1{}
+	 	.quest-2{}
+	 	.quest-3{}
+	 	.quest-4{}
+
+	 	.quest1-v1{
+	 		height:100px;
+	 		width:400px;
+	 		background-color:limegreen;
+	 		border-radius:10px;
+	 		margin-left:150px;
+	 	}
+
+	 	.quest1-v2{
+	 		height:100px;
+	 		width:400px;
+	 		background-color:limegreen;
+	 		border-radius:10px;
+	 		margin-left:150px;
+		}
+
+		.quest1-v3{
+	 		height:100px;
+	 		width:400px;
+	 		background-color:limegreen;
+	 		border-radius:10px;
+	 		margin-left:150px;
+		}
+
+		.quest2-v1{
+	 		height:100px;
+	 		width:400px;
+	 		background-color:limegreen;
+	 		border-radius:10px;
+	 		margin-left:150px;
+	 	}
+
+	 	.quest2-v2{
+	 		height:100px;
+	 		width:400px;
+	 		background-color:limegreen;
+	 		border-radius:10px;
+	 		margin-left:150px;
+		}
+
+		.quest2-v3{
+	 		height:100px;
+	 		width:400px;
+	 		background-color:limegreen;
+	 		border-radius:10px;
+	 		margin-left:150px;
+		}
+
+		.quest3-v1{
+	 		height:100px;
+	 		width:400px;
+	 		background-color:limegreen;
+	 		border-radius:10px;
+	 		margin-left:150px;
+	 	}
+
+	 	.quest3-v2{
+	 		height:100px;
+	 		width:400px;
+	 		background-color:limegreen;
+	 		border-radius:10px;
+	 		margin-left:150px;
+		}
+
+		.quest3-v3{
+	 		height:100px;
+	 		width:400px;
+	 		background-color:limegreen;
+	 		border-radius:10px;
+	 		margin-left:150px;
+		}
+
+		.quest4-v1{
+	 		height:100px;
+	 		width:400px;
+	 		background-color:limegreen;
+	 		border-radius:10px;
+	 		margin-left:150px;
+	 	}
+
+	 	.quest4-v2{
+	 		height:100px;
+	 		width:400px;
+	 		background-color:limegreen;
+	 		border-radius:10px;
+	 		margin-left:150px;
+		}
+
+		.quest4-v3{
+	 		height:100px;
+	 		width:400px;
+	 		background-color:limegreen;
+	 		border-radius:10px;
+	 		margin-left:150px;
+		}
+	 	.quest-title{
+	 		background-color:limegreen;
+	 		border-radius:10px;
+	 		margin-left:100px;
+	 		width:500px;
+	 		height:200px;
+	 	}

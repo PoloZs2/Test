@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Воросы</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<div class="quest-1">
+
+	<div class="quest-bg">
+		<div class="quest">
+			<div class="quest-title"><h1 align="center">Кем по профессии является главный герой франшизы Гордон Фримен?</h1></div>
+			<div class="quest1-v1" style="margin-top: 100px;"><h1 align="center">Физик-теоретик</h1></div>
+			<div class="quest1-v2" style="margin-top: 20px;"><h1 align="center">Физик-инженер<h1></div>
+			<div class="quest1-v3" style="margin-top: 20px;"><h1 align="center">Физик-ядерщик<h1></div>
+		</div>
+	</div>
+	
+</div>
+<div class="quest-2" style="display:none;">
+	<div class="quest-bg">
+		<div class="quest">
+			<div class="quest-title"><h1 align="center">Каково местонахождение Чёрной Мезы — исследовательского центра, где начинаются события всей франшизы?
+</h1></div>
+			<div class="quest2-v1" style="margin-top: 100px;"><h1 align="center">Возле Женевы, на базе ЦЕРНа</h1></div> 
+			<div class="quest2-v2" style="margin-top: 20px;"><h1 align="center">На засекреченном острове в Тихом Океане<h1></div>
+			<div class="quest2-v3" style="margin-top: 20px;"><h1 align="center">В США, штат Нью-Мексико<h1></div> 
+		</div>
+	</div>
+</div>
+<div class="quest-3" style="display:none;">
+	<div class="quest-bg">
+		<div class="quest">
+			<div class="quest-title"><h1 align="center">Сколько видов оружия (считая гранаты и мины, но не считая стационарное) представлено в Half-Life 2?
+</h1></div>
+			<div class="quest3-v1" style="margin-top: 100px;"><h1 align="center">12</h1></div>
+			<div class="quest3-v2" style="margin-top: 20px;"><h1 align="center">10<h1></div>
+			<div class="quest3-v3" style="margin-top: 20px;"><h1 align="center">15<h1></div>
+		</div>
+	</div>
+</div>
+
+<div class="quest-4" style="display:none;">
+	<div class="quest-bg">
+		<div class="quest">
+			<div class="quest-title"><h1 align="center">кто произносит этот монолог?</h1>
+			<div style="margin-left:100px;"><audio controls><source src="Who.mp3" type=""></audio></div>
+			</div>
+			<div class="quest4-v1" style="margin-top: 100px;"><h1 align="center">Главный Герой</h1></div>
+			<div class="quest4-v2" style="margin-top: 20px;"><h1 align="center">Учёный<h1></div>
+			<div class="quest4-v3" style="margin-top: 20px;"><h1 align="center">Gman<h1></div>
+		</div>
+	</div>
+</div>
+
+<script>
+document.querySelector(".quest1-v1").onclick = function(){
+	alert("Правильно!");
+	document.querySelector(".quest-1").style.display = "none";
+	document.querySelector(".quest-2").style.display = "block";
+}
+document.querySelector(".quest1-v2").onclick = function(){
+	alert("Неа)")
+}
+document.querySelector(".quest1-v3").onclick = function(){
+	alert("Не то")
+}
+
+document.querySelector(".quest2-v3").onclick = function(){
+	alert("Правильно!");
+	document.querySelector(".quest-2").style.display = "none";
+	document.querySelector(".quest-3").style.display = "block";
+}
+document.querySelector(".quest2-v2").onclick = function(){
+	alert("Неа)")
+}
+document.querySelector(".quest2-v1").onclick = function(){
+	alert("Не то")
+}
+
+document.querySelector(".quest3-v1").onclick = function(){
+	alert("Правильно!");
+	document.querySelector(".quest-3").style.display = "none";
+	document.querySelector(".quest-4").style.display = "block";
+}
+document.querySelector(".quest3-v2").onclick = function(){
+	alert("Неа)")
+}
+document.querySelector(".quest3-v3").onclick = function(){
+	alert("Не то")
+}
+
+document.querySelector(".quest4-v3").onclick = function(){
+	alert("Правильно! - ты прошел(a) все!");
+}
+document.querySelector(".quest4-v2").onclick = function(){
+	alert("Неа)")
+}
+document.querySelector(".quest4-v1").onclick = function(){
+	alert("Не то")
+}
+
+
+</script>
+</body>
+</html>
